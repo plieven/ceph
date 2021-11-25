@@ -297,6 +297,7 @@ else
                 install_boost_on_ubuntu xenial
                 ;;
             *Bionic*)
+                ensure_decent_gcc_on_ubuntu 9 bionic
                 install_boost_on_ubuntu bionic
                 ;;
             *)
